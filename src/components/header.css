@@ -1,5 +1,7 @@
 body {
 background-color: #072836;
+display: flex;
+justify-content: center;
 }
 header {
   height: 90px;
@@ -7,6 +9,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 a {
   text-decoration: none;
