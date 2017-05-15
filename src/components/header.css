@@ -1,0 +1,22 @@
+body {
+background-color: #072836;
+}
+header {
+  height: 90px;
+  background-color: #378b85;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 34px;
+  font-weight: bold;
+}
+a:first-of-type {
+  margin-left: 50px;
+}
+a:nth-of-type(2) {
+  margin-right: 50px;
+}
